@@ -57,7 +57,7 @@ bugatti.start()
 
 //Задание 2
 
-const color = prompt("")
+const color = prompt("Введите цвет светофора")
 
 class Svetofor {
     constructor(selector) {
