@@ -1,12 +1,12 @@
 //задание 1
-var num1 = prompt('Введите первое число')
-var num2 = prompt('Введите второе число')
+let parameter1 = prompt('Введите первое число')
+let parameter2 = prompt('Введите второе число')
 
 function numResult (){
- if(Number(num1) < Number(num2)){
-console.log(Number(num1))
- }else if (Number(num1) > Number(num2)){
-console.log(Number(num2))
+ if(Number(parameter1) < Number(parameter2)){
+console.log(Number(parameter1))
+ }else if (Number(parameter1) > Number(parameter2)){
+console.log(Number(parameter2))
 }else{
      alert('ERROR')
  }
@@ -15,7 +15,7 @@ console.log(Number(num2))
 
 //Задание2
 
-var result= prompt('Aidana')
+let result= prompt('Aidana')
 function newPage() {
  console.log(result.length)
 }
@@ -27,7 +27,7 @@ const  num1 = Number( prompt('Введите первое число'))
 const  oper = prompt('Введите операцию')
 const  num2 = Number( prompt('Введите второе число'))
 
-function numResult (one, two){
+function Calculate (one, two){
     if(isNaN( two) || isNaN(one) || (one,two <= 0) ){
         alert("У вас ошибка, пожалуйста введите корректно")
     }else if(oper === "+"){
@@ -42,4 +42,4 @@ function numResult (one, two){
         alert("Введите операцию правильно")
 }
 }
-numResult(num1, num2)
+Calculate(num1, num2)
